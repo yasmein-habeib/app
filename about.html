@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ 
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family: sans-serif;
+        }
+        
+nav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 40px;
+     background-color: rgb(31, 30, 30);
+     padding:15px 10px 25px 10px;
+    }
+    nav .left-nav{
+        line-height: 0;
+        text-align: center;
+        
+    }
+nav h1{
+        color: aqua;
+        font-size: 40px;
+        font-weight: bolder;
+        margin-bottom: 22px;
+      
+    }
+nav p{
+        color: white;
+        font-size: 8px;
+        letter-spacing: 3px;
+        
+      
+        
+    }
+nav a{
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+        margin-left: 20px;
+
+        
+    }
+    nav .right-nav :hover{
+        color: aqua;
+        font-size: large;
+    }
+    
+    .fa-magnifying-glass{
+        font-size: 15px;
+        
+        color: rgb(50, 126, 126);
+        padding: 35px 20px;
+        translate: 0 3px;
+    }
+
+        .about{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            height: 300px;
+            
+            
+        }
+        .about .right{
+            width: 40%;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .about .bottom{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 20px;
+          
+
+        }
+       
+        
+        
+        .about .right .bottom span div {
+            
+            display: grid;
+            grid-template-rows:auto auto ;
+            translate: 70px -65px;
+          
+        }
+        .about .right .bottom h2{
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .about p ,h5{
+            font-size: 12px;
+            color: rgb(71, 71, 71);
+        }
+        .about .bottom span div h5{
+            translate: 0 -15px;
+            width: 200px;
+        }
+
+        .about2 {
+            height: 210px;
+            
+            background-image: linear-gradient(to right , rgb(20, 44, 44) , black);
+            position: relative;
+            
+        }
+        .about2 img{
+            position: absolute;
+            opacity: 0.1;
+        }
+        .about2 .image {
+            display: grid;
+            grid-template-columns: repeat(4 , 150px);
+            column-gap: 10px;
+            align-items: center;
+            justify-content: space-around;
+            margin: 20px 150px;
+            padding: 30px;
+        }
+        .about2 .image div img {
+            opacity: 0.8;
+            
+        }
+        .about2 .image div p {
+            font-size: 12px;
+            font-weight: 700;
+            translate: -10px -15px;
+            
+        }
+
+    </style>
+    
+    <title>Document</title>
+</head>
+
+<body>
+    
+
+
+    <nav>
+        <div class="left-nav">
+            <h1>Criativo</h1>
+            <p>Creative Agency</p>
+
+        </div>
+
+        <div class="right-nav">
+            <a href="index.html"> Home </a>
+            <a href="about.html"> About Us </a>
+            <a href="service.html"> Services</a>
+            <a href="portfolio.html"> portfolio</a>
+            <a href="page.html"> Pages </a>
+            <a href="contact.html"> Contact Us</a>
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+
+        </div>
+
+    </nav>
+
+    <section class="about">
+        <img src="imagess 4/Untitled-1.png" alt="">
+        <div class="right">
+            <div class="top">
+                <p style="color: rgb(39, 170, 170); letter-spacing: 3px; font-weight: bold;font-size: 12px;">ABOUT US</p>
+                <h1 style="font-size: 40px; font-weight: bold; margin-bottom: 5px; margin-top: 10px;">We Use <span style="color: rgb(82, 221, 221);">Creativity</span> To Get Our Clients .</h1>
+                <hr style="border-color: rgb(49, 129, 129); width: 70px;translate: -230px;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Sit amet consectetur adipisicing elit.  Deleniti quaerat repudiandae ipsa quam veniam sit obcaecati incidunt cupiditate vel esse?</p>
+            
+            </div>
+            
+            <div class="bottom">
+                <span>
+                    <img src="imagess 4/Clean-Code.png" alt="" width="60px" height="60px">
+                    <div>
+                         <h2 >Clean Code</h2>
+                         <h5> Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h5>
+                    </div >  
+                </span>
+
+                <span>
+                    <img src="imagess 4/Modern-Design.png" alt=""  width="60px" height="60px">
+                    <div>
+                         <h2>Modern Design</h2>
+                         <h5 > Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h5>
+                    </div>
+                </span>
+
+
+            </div>
+
+
+            
+           
+           
+        </div>
+
+    </section>
+
+
+    <section class="about2">
+        <img src="imagess 4/1.jpg" alt="" width="100%" height="210px">
+        <div class="image">
+            <div >
+                <img src="imagess 4/10-Project-Done.png" alt="" width="60px " height="60px">
+                <br><br><br><h1><span style="color: rgb(70, 231, 231); font-size: 30px;">150</span> +</h1>
+                <p >Project Done</p>
+            </div> 
+            <div>
+                <img src="imagess 4/7-Happy-Costumer.png" alt="" width="60px " height="60px">
+              <br><br><br> <h1><span style="color: rgb(70, 231, 231); font-size: 30px;">75</span> +</h1>
+                <p>Happy Customer</p>
+            </div>
+            <div>
+                <img src="imagess 4/8-Award-Winning.png" alt="" width="60px " height="60px">
+                <br><br><br><h1><span style="color: rgb(70, 231, 231); font-size: 30px;">20</span> +</h1>
+                <p>Award Winning</p>
+            </div>
+            <div>
+                <img src="imagess 4/9-Team-Crew.png" alt=""width="60px " height="60px" >
+                <br><br><br><h1><span style="color: rgb(70, 231, 231); font-size: 30px;">45</span> +</h1>
+                <p>Team Members</p>
+            </div>
+
+        </div>
+
+    </section>
+</body>
+</html>
